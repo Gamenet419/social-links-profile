@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<Reflection>
+    <class name="BRTTIRefCount" base="root class" />
+    <class name="BPersistent" base="BRTTIRefCount">
+        <prop name="Name" type="String" />
+    </class>
+    <class name="GraphicConfigData" base="BPersistent">
+        <prop name="Version" type="Fct" />
+        <prop name="Mode" type="Fct" />
+        <prop name="Vsync" type="Fct" />
+        <prop name="FrameLatency" type="Fct" />
+        <prop name="AntiAlias" type="Fct" />
+        <prop name="FXAA" type="Fct" />
+        <prop name="SMAA" type="Fct" />
+        <prop name="Windowed" type="Fct" />
+        <prop name="TextureFilter" type="Fct" />
+        <prop name="TextureResolution" type="Fct" />
+        <prop name="Brightness" type="Fct" />
+        <prop name="CarDetailLevel" type="Fct" />
+        <prop name="TrackDetailLevel" type="Fct" />
+        <prop name="ShadowDetailLevel" type="Fct" />
+        <prop name="MotionblurLevel" type="Fct" />
+        <prop name="EffectsDetailLevel" type="Fct" />
+        <prop name="EnvmapDetailLevel" type="Fct" />
+        <prop name="MirrorEnabled" type="Fct" />
+        <prop name="MirrorEnhanced" type="Fct" />
+        <prop name="EnvmapReflectionDetailLevel" type="Fct" />
+        <prop name="GraphicsLevel" type="Fct" />
+    </class>
+    <data class="GraphicConfigData" id="0x417DBE60">
+        <prop name="Name" data="" />
+        <prop name="Version" version="2" />
+        <prop name="Mode" adapter="0" width="1280" height="720" refresh_num="74250000" refresh_dem="1237500" />
+        <prop name="Vsync" vsync="1" />
+        <prop name="FrameLatency" framelatency="1" />
+        <prop name="AntiAlias" antialias="0" />
+        <prop name="FXAA" fxaa="1" />
+        <prop name="SMAA" smaa="0" />
+        <prop name="Windowed" windowed="0" />
+        <prop name="TextureFilter" texturefilter="1" />
+        <prop name="TextureResolution" textureresolution="1" />
+        <prop name="Brightness" brightness="10" />
+        <prop name="CarDetailLevel" cardetaillevel="2" />
+        <prop name="TrackDetailLevel" trackdetaillevel="1" />
+        <prop name="ShadowDetailLevel" shadowdetaillevel="2" />
+        <prop name="MotionblurLevel" motionblurLevel="1" />
+        <prop name="EffectsDetailLevel" effectsdetaillevel="2" />
+        <prop name="EnvmapDetailLevel" envmapdetaillevel="2" />
+        <prop name="MirrorEnabled" mirrorenabled="0" />
+        <prop name="MirrorEnhanced" mirrorenhanced="0" />
+        <prop name="EnvmapReflectionDetailLevel" envmapreflectiondetaillevel="1" />
+        <prop name="GraphicsLevel" graphicslevel="4" />
+    </data>
+</Reflection>
